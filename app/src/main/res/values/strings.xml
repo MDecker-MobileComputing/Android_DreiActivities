@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Drei Activities</string>
+
+    <string name="button_zu_activity_a">Gehe zu Activity A</string>
+    <string name="button_zu_activity_b">Gehe zu Activity B</string>
+
+    <string name="textview_activity_a">Activity A</string>
+    <string name="textview_activity_b">Activity B</string>
+
+</resources>
