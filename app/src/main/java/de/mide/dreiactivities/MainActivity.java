@@ -35,8 +35,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        _buttonFuerActivityA = (Button) findViewById(R.id.button_gehe_zu_activity_a);
-        _buttonFuerActivityB = (Button) findViewById(R.id.button_gehe_zu_activity_b);
+        _buttonFuerActivityA = findViewById(R.id.button_gehe_zu_activity_a);
+        _buttonFuerActivityB = findViewById(R.id.button_gehe_zu_activity_b);
 
         _buttonFuerActivityA.setOnClickListener(this);
         _buttonFuerActivityB.setOnClickListener(this);
