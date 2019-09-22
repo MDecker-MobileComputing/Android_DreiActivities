@@ -87,6 +87,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         String toastText = "";
 
         switch (requestCode) {
+
             case 111:
                 toastText = "Activity A ist beendet worden.";
             break;
