@@ -26,9 +26,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 
     /**
-     * Lifecycle-Methode. Lädt Layout-Datei, füllt Member-Variablen mit
-     * Referenzen auf die Button-Objekte und registriert die Activity-Instanz
-     * selbst als Event-Handler für die beiden Buttons.
+     * Lifecycle-Methode. Lädt Layout-Datei, füllt Member-Variablen mit Referenzen
+     * auf die Button-Objekte und registriert die Activity-Instanz selbst als
+     * Event-Handler für die beiden Buttons.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
